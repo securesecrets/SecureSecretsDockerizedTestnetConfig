@@ -16,7 +16,7 @@
 export default {
   name: "FigmentForm",
   props: {},
-  data() {
+  data: function () {
     return {
       apiKey: "",
     };
@@ -31,8 +31,8 @@ export default {
       window.keplr.experimentalSuggestChain({
         chainId: "holodeck-2",
         chainName: "Figment Holodeck-2",
-        rpc: `https://secret-holodeck-2--rpc--full.datahub.figment.io/apikey/${this.apikey}`,
-        rest: `https://secret-holodeck-2--lcd--full.datahub.figment.io/apikey/${this.apikey}`,
+        rpc: `https://secret-holodeck-2--rpc--full.datahub.figment.io/apikey/${this.apiKey}`,
+        rest: `https://secret-holodeck-2--lcd--full.datahub.figment.io/apikey/${this.apiKey}`,
         bip44: {
           coinType: 529,
         },
