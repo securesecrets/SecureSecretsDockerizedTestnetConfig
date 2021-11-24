@@ -1,4 +1,4 @@
-# holodeckarch
+# Secure Secrets Testnet Config
 
 ## Project setup
 ```
