@@ -69,7 +69,7 @@ export default {
   methods: {
     addNetwork() {
       window.keplr.experimentalSuggestChain({
-        chainId   : "pulsar-2",
+        chainId   : "secretdev-1",
         chainName : "SecureSecretsDockerized",
         rpc       : "http://45.77.216.89:26657",
         rest      : "http://45.77.216.89:1317",
