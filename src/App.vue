@@ -71,8 +71,8 @@ export default {
       window.keplr.experimentalSuggestChain({
         chainId   : "secretdev-1",
         chainName : "SecureSecretsDockerized",
-        rpc       : "http://45.77.216.89:26657",
-        rest      : "http://45.77.216.89:1317",
+        rpc       : "http://45.63.6.224:26657",
+        rest      : "http://45.63.6.224:1317",
         bip44     : {
           coinType : 529,
         },
